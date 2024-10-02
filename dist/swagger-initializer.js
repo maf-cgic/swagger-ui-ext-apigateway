@@ -32,12 +32,21 @@ window.onload = function() {
           ui.specActions.updateUrl("https://rtq606spbi.execute-api.us-east-1.amazonaws.com/dev/swagger");
           ui.specActions.download("https://rtq606spbi.execute-api.us-east-1.amazonaws.com/dev/swagger");
         });
+<<<<<<< HEAD
 		
 		document.getElementById('agent-btn').addEventListener('click', function() {
           ui.specActions.updateUrl("https://srfhe708e3.execute-api.us-east-1.amazonaws.com/dev/swagger");
           ui.specActions.download("https://srfhe708e3.execute-api.us-east-1.amazonaws.com/dev/swagger");
         });
 		
+=======
+
+        document.getElementById('agent-btn').addEventListener('click', function() {
+          ui.specActions.updateUrl("https://srfhe708e3.execute-api.us-east-1.amazonaws.com/dev/swagger");
+          ui.specActions.download("https://srfhe708e3.execute-api.us-east-1.amazonaws.com/dev/swagger");
+        });
+        
+>>>>>>> e71f49e06323dbeb9de99f68473d484496f5792d
       }
     }
   });
